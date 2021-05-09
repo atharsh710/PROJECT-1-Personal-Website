@@ -1,0 +1,51 @@
+.slider{
+    display: flex ;
+    justify-content: right;
+    overflow: hidden;
+    height: 70vh;
+    position: relative;
+    right: 4vw;
+    bottom: 6vh;
+}
+@keyframes slideimg1 {
+    0%{
+        transform: translatex(34vw);
+    }
+    50%{
+        transform: translatex(72vw);
+    }
+    54%{
+        transform: translatex(72vw);
+    }
+    70%{
+        transform: translatex(72vw);
+    }
+    100%{
+        transform: translatex(34vw);
+    }
+}
+@keyframes slideimg2 {
+    0%{
+        transform: translatex(39vw);
+    }
+    50%{
+        transform: translatex(0vw);
+    }
+    54%{
+        transform: translatex(0vw);
+    }
+    70%{
+        transform: translatex(0vw);
+    }
+    100%{
+        transform: translatex(39vw);
+    }
+}
+#img1{
+    transform: translatex(34vw);
+    animation: slideimg1 10s  6s  normal;
+}
+#img2{
+    transform: translatex(39vw);
+    animation: slideimg2 10s  6s  normal;
+}

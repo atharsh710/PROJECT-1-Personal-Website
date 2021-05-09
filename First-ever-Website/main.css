@@ -1,0 +1,19 @@
+#para{
+    display: inline-block;
+    font-family: 'Rubik', sans-serif;
+    color: rgb(12, 12, 12);
+    position: relative;
+    left: 9vh;
+    top: 25vh;
+}
+#para1{
+    display: flex;
+    color: rgb(114, 114, 114);
+    justify-content: center;
+    font-size: 17px;
+    line-height: 26px;
+    font-family: 'Quicksand', sans-serif;
+    position: relative;
+    right: 26vw;
+    top: 30vh;
+}
