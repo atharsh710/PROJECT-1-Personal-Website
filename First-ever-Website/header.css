@@ -14,7 +14,7 @@ li{
     font-family: 'Varela Round', sans-serif;
 
 }
-a:link{
+#nav:link{
     text-decoration: none;
     background: yellow;
     color: black;
@@ -22,28 +22,45 @@ a:link{
     border-radius: 4px;
     display: inline-block;
 }
-a:hover{
+#nav:hover{
     background: white;
 }
-#contact{
+#nav:link{
+    text-decoration: none;
+    background: yellow;
+    color: black;
+    padding: 12px 17px;
+    border-radius: 4px;
+    display: inline-block;
+}
+#contact:link{
     display: inline-block;
     position:absolute;
     right: 44px;
+    text-decoration: none;
+    background: yellow;
+    color: black;
+    padding: 12px 17px;
+    border-radius: 4px;
+}
+#contact:hover{
+    background: white;
 }
 .progressbar{
     background: rgb(255, 255, 0);
     height: 5px;
-    width: 98vw;
-    animation: progress 2s ease-in-out normal;
+    width: auto;
+    overflow: hidden;
+    animation: progress 3s ease-in-out normal;
 }
 @keyframes progress {
     0%{
         width: 0vw;
     }
     50%{
-        width: 30vw;
+        width: 40vw;
     }
     100%{
-        width: 98vw;
+        width: auto;
     }
 }

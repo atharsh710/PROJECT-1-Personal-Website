@@ -1,51 +1,53 @@
 .slider{
-    display: flex ;
-    justify-content: right;
+    display: flex;
     overflow: hidden;
-    height: 70vh;
-    position: relative;
-    right: 4vw;
-    bottom: 6vh;
+    height: 77vh;
+    width: 77vw;
+    transform: translate(18vw);
 }
 @keyframes slideimg1 {
     0%{
-        transform: translatex(34vw);
+        transform: translatex(35vw);
     }
     50%{
-        transform: translatex(72vw);
+        transform: translatex(78vw);
     }
-    54%{
-        transform: translatex(72vw);
+    65%{
+        transform: translatex(79vw);
     }
     70%{
-        transform: translatex(72vw);
+        transform: translatex(78vw);
     }
     100%{
-        transform: translatex(34vw);
+        transform: translatex(35vw);
     }
 }
 @keyframes slideimg2 {
     0%{
-        transform: translatex(39vw);
+        transform: translatex(40vw);
     }
     50%{
-        transform: translatex(0vw);
+        transform: translatex(-3vw);
     }
-    54%{
-        transform: translatex(0vw);
+    65%{
+        transform: translatex(-3vw);
     }
     70%{
-        transform: translatex(0vw);
+        transform: translatex(-4vw);
     }
     100%{
-        transform: translatex(39vw);
+        transform: translatex(40vw);
     }
 }
 #img1{
-    transform: translatex(34vw);
-    animation: slideimg1 10s  6s  normal;
+    transform: translatex(35vw);
+    animation: slideimg1 10s  6s ease-in forwards;
+    display: flex;
+    flex-wrap: wrap;
 }
 #img2{
-    transform: translatex(39vw);
-    animation: slideimg2 10s  6s  normal;
+    transform: translatex(40vw);
+    animation: slideimg2 11s  5s ease-in forwards;
+    display: flex;
+    flex-wrap: wrap;
 }

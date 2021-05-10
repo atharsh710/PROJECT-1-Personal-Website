@@ -1,0 +1,52 @@
+footer{
+    position: relative;
+    margin-top: 0vh;
+    background-color: rgba(30, 113, 236, 0.856);
+    color: white;
+    padding: 49px;
+    font-family: 'Varela Round', sans-serif;
+}
+footer .f1{
+    color: rgb(0, 0, 0);
+    font-family: 'Varela Round', sans-serif;
+    font-family: 'Varela Round', sans-serif;
+    background: yellow;
+    color: black;
+    border-radius: 10px;
+    padding: 12px 17px;
+    display: flex;
+    justify-content: right;
+    width: max-content;
+    position: absolute;
+    top: 5vh;
+    right: 14vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+footer .f1:hover{
+    background: white;
+}
+footer .f2{
+    color: rgb(0, 0, 0);
+    font-family: 'Varela Round', sans-serif;
+    font-family: 'Varela Round', sans-serif;
+    background: yellow;
+    color: black;
+    border-radius: 10px;
+    padding: 12px 17px;
+    display: flex;
+    justify-content: right;
+    width: max-content;
+    position: absolute;
+    top: 5vh;
+    right: 4vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+footer .f2:hover{
+    background: white;
+}
+#share{
+    display: inline;
+    text-decoration: none;
+}
