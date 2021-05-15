@@ -1,2 +1,2 @@
 # My-WEB-Projects
- Here are some of my WEB projects like websites, clones etc
+ Here is my WEB project 1 - My Personal Website.
