@@ -42,10 +42,10 @@
 }
 #logo{
     display: flex;
-    overflow: scroll;
+    overflow: hidden;
     position: relative;
     bottom: 0vh;
-    left: 29vw;
+    left: 2vw;
 }
 .form{
     display: flex;
@@ -93,7 +93,7 @@
     justify-content: right;
     position: absolute;
     right: 27vw;
-    top: 364px;
+    top: 353px;
     border: rgb(189, 189, 189) 1px solid;
     border-radius: 5px;
     color: #2e2e2e;
