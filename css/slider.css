@@ -44,6 +44,7 @@
     animation: slideimg1 10s  6s ease-in forwards;
     display: flex;
     flex-wrap: wrap;
+    box-shadow: grey 8px 3px 10px 3px ;
 }
 #img2{
     transform: translatex(40vw);
