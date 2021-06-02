@@ -1,0 +1,418 @@
+@media screen and (max-width: 890px){
+    header nav{
+        display: none;
+    }
+    header{
+        height: 6vh;
+    }
+    .line1{
+        height: 3px;
+        width: 25px;
+        position: absolute;
+        top: 26px;
+        right: 25px;
+        background:yellow;
+    }
+    .line2{
+        height: 3px;
+        width: 25px;
+        position: absolute;
+        top: 33px;
+        right: 25px;
+        background: yellow;
+    }
+    .line3{
+        height: 3px;
+        width:25px;
+        position: absolute;
+        top: 40px;
+        right: 25px;
+        background: yellow;
+    }
+    /* .burger{
+        background-color: rgb(44, 125, 246);
+        position: absolute;
+        right: 0px;
+        margin-top: -10vh;
+        min-height: 114vh;
+        width: 50%;
+        z-index: 10;
+    } */
+
+.slider {
+    overflow: hidden;
+    height: 55vh;
+    display: flex;
+    justify-content: center;
+    width: 65%;
+}
+#img1{
+    transform: translatex(20vw);
+    animation: slideimg1 10s  6s ease-in forwards;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: grey 3px 10px 30px ;
+}
+#img2{
+transform: translatex(40vw);
+animation: slideimg2 11s 5s ease-in forwards;
+display: flex;
+flex-wrap: wrap;
+box-shadow: grey 3px 5px 40px;
+}
+@keyframes slideimg1 {
+    0%{
+        transform: translatex(20vw);
+    }
+    50%{
+        transform: translatex(86vw);
+    }
+    65%{
+        transform: translatex(86vw);
+    }
+    70%{
+        transform: translatex(86vw);
+    }
+    100%{
+        transform: translatex(20vw);
+    }
+}
+
+@keyframes slideimg2 {
+0% {
+    transform: translatex(40vw);
+}
+50% {
+    transform: translatex(-20vw);
+}
+65% {
+    transform: translatex(-20vw);
+}
+70% {
+    transform: translatex(-20vw);
+}
+100% {
+    transform: translatex(40vw);
+}
+}
+
+    #para{
+        position: absolute;
+        left: 7vh;
+        bottom: 14vh;
+        width: 77%;
+        font-size: 29px
+    }
+    #para1 {
+        position: absolute;
+        right: 10vw;
+        top: 92vh;
+        width: 75%;
+        font-size: 16px;
+    }
+        #logo{
+           position: relative;
+            top: 35vh;
+            width: 60vh;
+        }
+        footer{
+            position: relative;
+            margin: auto;
+            top: 35vh;
+            padding: 33px;
+        }
+         
+}
+
+/* TAB DISPLAY MEDIA SCREEN */
+
+@media screen and (max-width: 760px) {
+    header nav{
+        display: none;
+    }
+    header{
+        height: 6vh;
+    }
+
+.slider {
+    width: 60%;
+}
+#img1{
+    transform: translatex(28vw);
+}
+#img2{
+    transform: translatex(35vw);
+}
+@keyframes slideimg1 {
+    0%{
+        transform: translatex(28vw);
+    }
+    50%{
+        transform: translatex(86vw);
+    }
+    65%{
+        transform: translatex(86vw);
+    }
+    70%{
+        transform: translatex(86vw);
+    }
+    100%{
+        transform: translatex(28vw);
+    }
+}
+
+@keyframes slideimg2 {
+0% {
+    transform: translatex(35vw);
+}
+50% {
+    transform: translatex(-25vw);
+}
+65% {
+    transform: translatex(-25vw);
+}
+70% {
+    transform: translatex(-26vw);
+}
+100% {
+    transform: translatex(35vw);
+}
+}
+#para{
+    position: absolute;
+    left: 7vh;
+    bottom: 12vh;
+    width: 77%;
+    font-size: 28px
+}
+#para1 {
+    top: 90vh;
+    font-size: 15px;
+}
+    #logo{
+        top: 35vh;
+        right: 1vw;
+        width: 55vh;
+    }
+    footer{
+        position: relative;
+        margin: auto;
+        top: 35vh;
+        padding: 33px;
+    }
+}
+
+/*RESPONSIVE MOBILE SCREEN DISPLAY*/
+
+@media screen and (max-width: 670px) {
+    header nav{
+        display: none;
+    }
+
+.slider {
+    height: 50vh;
+    width: 60%;
+}
+#img1{
+    transform: translatex(26vw);
+}
+@keyframes slideimg1 {
+    0%{
+        transform: translatex(26vw);
+    }
+    50%{
+        transform: translatex(86vw);
+    }
+    65%{
+        transform: translatex(86vw);
+    }
+    70%{
+        transform: translatex(86vw);
+    }
+    100%{
+        transform: translatex(26vw);
+    }
+}
+
+#para{
+    position: absolute;
+    left: 7vh;
+    bottom: 16vh;
+    width: 77%;
+    font-size: 27px
+}
+#para1 {
+    top: 90vh;
+    font-size: 15px;
+}
+    #logo{
+        top: 36vh;
+        right: 0vw;
+        width: 50vh;
+    }
+    footer{
+        position: relative;
+        margin: auto;
+        top: 35vh;
+        padding: 33px;
+    }
+}
+
+/*MID MOBILE SCREEN DISPLAY */
+
+@media screen and (max-width: 630px) {
+    header nav{
+        display: none;
+    }
+    header{
+        height: 6vh;
+    }
+
+.slider {
+    height: 50vh;
+    width: 63%;
+}
+#img1{
+    transform: translatex(28vw);
+    box-shadow: grey 3px 10px 20px ;
+}
+@keyframes slideimg1 {
+    0%{
+        transform: translatex(28vw);
+    }
+    50%{
+        transform: translatex(86vw);
+    }
+    65%{
+        transform: translatex(86vw);
+    }
+    70%{
+        transform: translatex(86vw);
+    }
+    100%{
+        transform: translatex(28vw);
+    }
+}
+}
+
+/*SMALL MOBILE SCREEN DISPLAY */
+
+@media screen and (max-width: 600px) {
+    header nav{
+        display: none;
+    }
+    header{
+        height: 6vh;
+    }
+
+.slider {
+    height: 45vh;
+    width: 62%;
+}
+#img1{
+    transform: translatex(28vw);
+    box-shadow: grey 3px 10px 20px ;
+}
+#para{
+    position: absolute;
+    bottom: 23vh;
+    left: 16vw;
+    width: 75%;
+    font-size: 26px
+}
+#para1 {
+    top: 82vh;
+    font-size: 15px;
+    width: 70%;
+}
+#logo{
+        top: 42vh;
+        right: 0vw;
+        width: 50vh;
+    }
+footer{
+        position: relative;
+        margin: auto;
+        top: 40vh;
+        padding: 33px;
+    }
+}
+/*SMALLEST MOBILE SCREEN DISPLAY */
+
+@media screen and (max-width: 590px) {
+    header nav{
+        display: none;
+    }
+    header{
+        height: 6vh;
+    }
+
+.slider {
+    height: 40vh;
+    width: 65%;
+}
+#img1{
+    transform: translatex(28vw);
+    box-shadow: grey 3px 10px 20px ;
+}
+#img2{
+    transform: translatex(36vw);
+}
+@keyframes slideimg1 {
+    0%{
+        transform: translatex(28vw);
+    }
+    50%{
+        transform: translatex(86vw);
+    }
+    65%{
+        transform: translatex(86vw);
+    }
+    70%{
+        transform: translatex(86vw);
+    }
+    100%{
+        transform: translatex(28vw);
+    }
+}
+@keyframes slideimg2 {
+    0% {
+        transform: translatex(36vw);
+    }
+    50% {
+        transform: translatex(-32vw);
+    }
+    65% {
+        transform: translatex(-32vw);
+    }
+    70% {
+        transform: translatex(-32vw);
+    }
+    100% {
+        transform: translatex(36vw);
+    }
+}
+#para{
+    position: absolute;
+    bottom: 25vh;
+    left: 16vw;
+    width: 75%;
+    font-size: 25px
+}
+#para1 {
+    top: 80vh;
+    font-size: 14px;
+    width: 70%;
+}
+#logo{
+        top: 40vh;
+        right: 0vw;
+        width: 50vh;
+    }
+footer{
+        position: relative;
+        margin: auto;
+        top: 42vh;
+        padding: 33px;
+    }
+}

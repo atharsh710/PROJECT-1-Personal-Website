@@ -3,11 +3,11 @@
     overflow: hidden;
     height: 77vh;
     width: 77vw;
-    transform: translate(18vw);
+    transform: translate(22vw);
 }
 @keyframes slideimg1 {
     0%{
-        transform: translatex(35vw);
+        transform: translatex(31vw);
     }
     50%{
         transform: translatex(78vw);
@@ -19,36 +19,37 @@
         transform: translatex(78vw);
     }
     100%{
-        transform: translatex(35vw);
+        transform: translatex(31vw);
     }
 }
 @keyframes slideimg2 {
     0%{
-        transform: translatex(40vw);
+        transform: translatex(42vw);
     }
     50%{
-        transform: translatex(-3vw);
+        transform: translatex(-5vw);
     }
     65%{
-        transform: translatex(-3vw);
+        transform: translatex(-5vw);
     }
     70%{
-        transform: translatex(-4vw);
+        transform: translatex(-6vw);
     }
     100%{
-        transform: translatex(40vw);
+        transform: translatex(42vw);
     }
 }
 #img1{
-    transform: translatex(35vw);
+    transform: translatex(31vw);
     animation: slideimg1 10s  6s ease-in forwards;
     display: flex;
     flex-wrap: wrap;
-    box-shadow: grey 8px 3px 10px 3px ;
+    box-shadow: grey 3px 10px 30px ;
 }
 #img2{
-    transform: translatex(40vw);
+    transform: translatex(42vw);
     animation: slideimg2 11s  5s ease-in forwards;
     display: flex;
     flex-wrap: wrap;
+    box-shadow: grey 3px 5px 40px ;
 }

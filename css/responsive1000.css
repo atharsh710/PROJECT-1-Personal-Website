@@ -1,0 +1,126 @@
+@media screen and (max-width: 1200px){
+    .slider {
+        overflow: hidden;
+        height: 60vh;
+        display: flex;
+        justify-content:center;
+        width: 65%;
+        margin-top: 5vh ;
+    }
+    #img1{
+        transform: translatex(15vw);
+        animation: slideimg1 10s  6s ease-in forwards;
+        display: flex;
+        flex-wrap: wrap;
+        box-shadow: grey 3px 10px 30px ;
+    }
+    #img2{
+    transform: translatex(50vw);
+    animation: slideimg2 11s 5s ease-in forwards;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: grey 3px 5px 40px;
+    }
+    @keyframes slideimg1 {
+        0%{
+            transform: translatex(15vw);
+        }
+        50%{
+            transform: translatex(86vw);
+        }
+        65%{
+            transform: translatex(86vw);
+        }
+        70%{
+            transform: translatex(86vw);
+        }
+        100%{
+            transform: translatex(15vw);
+        }
+    }
+
+    @keyframes slideimg2 {
+    0% {
+        transform: translatex(50vw);
+    }
+    50% {
+        transform: translatex(-25vw);
+    }
+    65% {
+        transform: translatex(-25vw);
+    }
+    70% {
+        transform: translatex(-25vw);
+    }
+    100% {
+        transform: translatex(50vw);
+    }
+}
+#contact:link{
+    display: inline-block;
+    position: absolute;
+    right: 26px;
+    top: 15px;
+    font-size: 14px;
+    text-decoration: none;
+    background: yellow;
+    color: black;
+    padding: 11px 9px;
+    border-radius: 4px;
+}
+
+#nav:link {
+    text-decoration: none;
+    font-size: 14px;
+    background: yellow;
+    color: black;
+    padding: 11px 9px;
+    margin-left: -16px;
+    margin-right: 12px;
+    border-radius: 4px;;
+}
+#para{
+    position: absolute;
+    left: 22vh;
+    bottom: 7vh;
+    width: 65%;
+}
+
+#para1{
+    position: absolute;
+    right: 10vw;
+    top: 99vh;
+    width: 75%;
+}
+#logo{
+   position: relative;
+    top: 37vh;
+    right: 0vw;
+    width: 70vh;
+}
+footer{
+    position: relative;
+    margin: auto;
+    top: 37vh;
+}
+
+footer .f1 {
+    padding: 10px 7px;
+    margin-right: 45px;     
+    font-size: 15px;
+    border-radius: 7px;
+}
+   
+footer .f2 {
+    padding: 10px 7px;
+    margin-right: 20px;     
+    font-size: 15px;
+    border-radius: 7px;
+}
+footer li{
+    color: rgb(224, 224, 224);
+    font-size: 15px;
+    padding-left: 2px;
+}
+
+}
