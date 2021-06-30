@@ -93,6 +93,7 @@
     width: 75%;
 }
 #logo{
+    display: none;
    position: relative;
     top: 37vh;
     right: 0vw;
@@ -101,7 +102,7 @@
 footer{
     position: relative;
     margin: auto;
-    top: 37vh;
+    top: 155vh;
 }
 
 footer .f1 {
@@ -119,8 +120,13 @@ footer .f2 {
 }
 footer li{
     color: rgb(224, 224, 224);
-    font-size: 15px;
+    font-size:    15px;
     padding-left: 2px;
 }
-
+.spotify{
+    position: absolute;
+    bottom: -120vh;
+    margin: auto;
+    padding-left: 20vh ;
+}
 }

@@ -118,7 +118,7 @@ box-shadow: grey 3px 5px 40px;
         footer{
             position: relative;
             margin: auto;
-            top: 35vh;
+            top: 155vh;
             padding: 33px;
         }
          
@@ -197,8 +197,11 @@ box-shadow: grey 3px 5px 40px;
     footer{
         position: relative;
         margin: auto;
-        top: 35vh;
+        top: 160vh;
         padding: 33px;
+    }
+    .spotify{
+        margin-top: 20vh;
     }
 }
 
@@ -253,7 +256,7 @@ box-shadow: grey 3px 5px 40px;
     footer{
         position: relative;
         margin: auto;
-        top: 35vh;
+        top: 145vh;
         padding: 33px;
     }
 }
@@ -333,7 +336,7 @@ box-shadow: grey 3px 5px 40px;
 footer{
         position: relative;
         margin: auto;
-        top: 40vh;
+        top: 180vh;
         padding: 33px;
     }
 }
@@ -412,7 +415,7 @@ footer{
 footer{
         position: relative;
         margin: auto;
-        top: 42vh;
+        bottom: 5vh;
         padding: 33px;
     }
 }

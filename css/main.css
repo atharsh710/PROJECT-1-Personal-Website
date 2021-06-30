@@ -50,6 +50,7 @@
     display: flex;
     overflow: hidden;
     margin: auto;
+    padding-bottom: 20px;
 }
 .form{
     display: flex;
@@ -199,4 +200,40 @@
 #link:hover{
     color: rgb(150, 195, 212);
     text-decoration: underline;
+}
+hr{
+    margin-bottom: 20px;
+}
+h2{
+    font-size: 20px;
+    font-family: 'Karla', sans-serif;  
+    display: flex;
+    justify-content: center;
+}
+h2:hover{
+   color: rgb(61, 61, 61);
+}
+h3{
+    font-family: 'Quicksand',sans-serif;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+}
+a{
+    color: rgb(87, 129, 44);
+    text-decoration: overline;
+}
+a:hover{
+    color:hsl(91, 56%, 43%);
+    text-decoration: underline;
+}
+h3:hover{
+    color: hsl(91, 56%, 43%);
+    cursor: pointer; 
+}
+.music{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 20px 0;
 }
