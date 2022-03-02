@@ -1,3 +1,12 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-image: url(/img/pattern-background-desktop.svg);
+    background-size: cover;
+    background-attachment:fixed;
+    background-position: top;
+}
 .container{
     display: flex;
     flex-wrap: wrap;
@@ -46,11 +55,8 @@
     width: 70vw;
     transform: translate(15vw);
 }
-#logo{
-    display: flex;
-    overflow: hidden;
-    margin: auto;
-    padding-bottom: 20px;
+hr{
+    margin-top: 5vh;
 }
 .form{
     display: flex;
